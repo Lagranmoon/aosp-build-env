@@ -1,5 +1,4 @@
 FROM ubuntu:14.04
-USER root
 Run sed -i 's/archive.ubuntu.com/mirrors.ustc.edu.cn/g' /etc/apt/sources.list\
     && apt update \ 
     && apt install -y wget \
