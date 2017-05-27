@@ -1,7 +1,7 @@
 # 使用Docker构建Android编译环境
 基于Android和官方教程构建Android编译环境
 
-编译AOSP版本为Android7.0，Docker版本为17.03.1-ce
+编译AOSP版本为Android7.0，Ubuntu版本为14.04，jdk版本为openjdk1.8，Docker版本为17.03.1-ce
 
 # Dockerfile文件
 ```
