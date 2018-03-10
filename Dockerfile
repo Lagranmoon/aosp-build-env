@@ -1,5 +1,5 @@
 FROM ubuntu:14.04
-Run sed -i 's/archive.ubuntu.com/mirrors.ustc.edu.cn/g' /etc/apt/sources.list\
+RUN sed -i 's/archive.ubuntu.com/mirrors.ustc.edu.cn/g' /etc/apt/sources.list\
     && apt update \ 
     # && apt install -y wget \
     # && wget https://mirrors.ustc.edu.cn/ubuntu/pool/universe/o/openjdk-8/openjdk-8-jre-headless_8u45-b14-1_amd64.deb \
